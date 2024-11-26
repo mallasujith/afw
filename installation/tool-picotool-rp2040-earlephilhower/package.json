@@ -1,0 +1,7 @@
+{
+   "description": "picotool-utility",
+   "name": "tool-picotool-rp2040-earlephilhower",
+   "system": [ "linux_aarch64" ],
+   "url": "https://github.com/earlephilhower/pico-quick-toolchain",
+   "version": "5.140200.240929"
+}
