@@ -38,6 +38,14 @@ https://docs.platformio.org/en/stable/core/installation/methods/installer-script
 to install platformio.
 \item Execute the following on debian
 \begin{lstlisting}
+cd .platformio/packages
+git clone https://github.com/earlephilhower/arduino-pico
+cd arduino-pico
+git submodule update --init
+cd pico-sdk
+git submodule update --init
+cd ../tools
+python3 ./get.py
 cd ide/piosetup/codes
 pio run
 \end{lstlisting}
@@ -55,7 +63,6 @@ Downlaod EtchDroid from playstore.Flash the uf2 file using EtchDroid.
 \vspace{0.5em} % Adjust the amount of space as needed
 \item The Onboard LED will start blinking.
 \end{enumerate}
-
 
 
 
